@@ -24,9 +24,9 @@ jobs:
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v3.8.1
         with:
-          node-version: 18.x
+          node-version: 20.x
 
-      - name: Update npm to 11.x 🚀
+      - name: Update npm to 10.x 🚀
         run: npm install -g npm@latest
 
       - name: Install and Build 🔧 # Build the Project
