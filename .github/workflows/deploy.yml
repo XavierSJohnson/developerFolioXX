@@ -27,7 +27,7 @@ jobs:
           node-version: 20.x
 
       - name: Update npm to 10.x 🚀
-        run: npm install -g npm@latest
+        run: npm install -g npm@10
 
       - name: Install and Build 🔧 # Build the Project
         run: |
